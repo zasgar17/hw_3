@@ -1,4 +1,39 @@
-h1 {
-    color:purple;
-    background-color:red;
-}
+/* Genel stil ayarları */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #aa4b4b;
+  }
+  
+  .logo h1 {
+    margin: 0;
+  }
+  
+  .info {
+    text-align: center;
+  }
+  
+  .info h2 {
+    margin-top: 0;
+  }
+  
+  .main-content {
+    padding: 20px;
+  }
+  
+  /* JavaScript ile yapılacak değişiklikler için bir sınıf ekleyelim */
+  
+  .highlight {
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+  }
+  
